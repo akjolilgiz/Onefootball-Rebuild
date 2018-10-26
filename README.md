@@ -1,3 +1,16 @@
+# _OneFootball Website_
+
+#### _OneFootball Website, October 26, 2018_
+
+###### By _**Akjol Jaenbai**_
+
+## Description
+
+_This is a website rebuilt of OneFootball using Angular. It is only front end_
+
+## Support and contact details
+* akjolilgiz@gmail.com
+* https://github.com/akjolilgiz/Website-Angular
 # WebsiteAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
