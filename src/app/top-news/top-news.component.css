@@ -6,7 +6,16 @@
   margin-top: 30px;
   margin-bottom: 5px;
 }
-
+.logO{
+  padding-top: 50px;
+}
+.log1{
+  padding-top: 20px;
+}
+.topNewsLogo{
+  padding-top: 50px;
+  padding-left: 10px; 
+}
 .header h5 {
   position: relative;
   top: 18px;
@@ -22,7 +31,7 @@
   background-color: black;
 }
 h4{
-  padding-top: 50px;
+  padding-top: 40px;
 }
 img{
   width: 600px;
