@@ -6,7 +6,7 @@
 
 ## Description
 
-_This is a website rebuilt of OneFootball using Angular. It is only front end_
+_This is a website rebuilt of OneFootball using Angular. It is only front end._
 
 ## Support and contact details
 * akjolilgiz@gmail.com
