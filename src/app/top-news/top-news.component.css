@@ -1,9 +1,8 @@
 .header img {
   float: left;
-    width: 50px;
-    height: 100px;
-  background: #555;
-  margin-right: 10px;
+  width: 40px;
+  height: 100px;
+  /*margin-right: 10px;*/
   margin-top: 30px;
   margin-bottom: 5px;
 }
@@ -16,14 +15,40 @@
   left: 0px;
   bottom: 0px;
 }
+.information{
+  border: black solid;
+  height: 200px;
+  color: white;
+  background-color: black;
+}
+h4{
+  padding-top: 50px;
+}
 img{
   width: 600px;
   margin: 0px;
   flex-wrap: wrap;
 }
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.picture:hover img {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.otherNews:hover img {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
 .news{
-width: 500px;
-margin-right: 0px;
+width: 505px;
+margin: 0px;
 background-color: black;
 }
 h3{
@@ -32,5 +57,13 @@ h3{
   color: white;
 }
 h6{
-  color: white; 
+  color: white;
+}
+.otherNews {
+    float: left;
+    width: 23%;
+    margin-top: 20px;
+    margin-right: 22px;
+    padding: 0px;
+    heigh: 100px;
 }
