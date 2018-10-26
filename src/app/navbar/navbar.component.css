@@ -1,34 +1,29 @@
-img{
-
-}
-.navbar-brand{
-  font-family: cursive;
+.navbar{
+  font-family: verdana;
   font-style: italic;
   font-weight: bold;
-  color: green;
+  height: 50px;
+  margin-top: 10px;
+  border-bottom: 3px solid black;
+
 }
-/*
-.nav {
-    margin-left: auto;
+
+.searchForm {
+    float: left;
+    border-left: 1px solid #ced4db;
+    margin-left: 20px;
+    width: 600px;
+    margin-left: 100px;
 }
 nav {
     margin-left: auto;
     background-color: white;
     color: black;
 }
-
-.nav-item {
-        margin-top:     10px;
+.logo{
+  float: left;
 }
-
-.bg-light {
-        background: white;
-}
-/*
-.nav-cart {
-        border-left: 1px solid #ced4db;
-        margin-left: 20px;
-}*/
-/*.navbar-brand{
-  margin-top: 25px;
+/*button{
+  height: 35px;
+  border: solid;
 }*/
