@@ -1,26 +1,47 @@
-.header{
-  margin-top: 10px;
-  margin-bottom: 0px;
+.header img {
+    width: 50px;
+    height: 100px;
+  background: #555;
+  margin-right: 10px;
+  margin-top: 30px;
+  margin-bottom: 5px;
 }
-.logos{
+.popularPages{
+  margin-bottom: 50px;
+}
+.header h5 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+  top: 35px;
+  left: 0px;
+  bottom: 0px;
+  font-style: sans serif
+}
+.logos, .logosBarsa{
     width: 140px;
+    height: 90px;
     padding: 10px;
+    font-style: normal;
     margin: 0;
-    margin-left: 20px;
+    margin-right: 20px;
     background-color: white;
     border-radius: 5px;
     text-shadow: 50px 50px;
 
 }
 img{
-  margin: 20px;
+  margin: 5px;
   text-align: center;
 }
 .logosBarsa{
-  width: 140px;
-  padding: 10px;
-  margin: 0;
-  margin-left: 20px;
+
   background-color: #350CCD;
   border-radius: 5px;
+}
+a{
+  border:none;
+  outline:none;
+  text-decoration:none;
+  color:inherit;
 }

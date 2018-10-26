@@ -1,0 +1,36 @@
+.header img {
+  float: left;
+    width: 50px;
+    height: 100px;
+  background: #555;
+  margin-right: 10px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.header h5 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+  top: 35px;
+  left: 0px;
+  bottom: 0px;
+}
+img{
+  width: 600px;
+  margin: 0px;
+  flex-wrap: wrap;
+}
+.news{
+width: 500px;
+margin-right: 0px;
+background-color: black;
+}
+h3{
+  margin-top: 300px;
+  margin-left: 30px;
+  color: white;
+}
+h6{
+  color: white; 
+}
