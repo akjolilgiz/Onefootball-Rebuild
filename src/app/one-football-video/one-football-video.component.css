@@ -1,0 +1,38 @@
+.header{
+  margin-top: 10%;
+}
+.otherNews {
+    width: 23%;
+    height: 300px;
+    margin-right: 22px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.information{
+  width:200px;
+  margin: 5px;
+  text-align: center;
+  color:black;
+  white-space: normal;
+}
+
+.scrollmenu {
+    /*overflow: auto;*/
+    white-space: nowrap;
+    height: auto;
+    overflow-x: scroll;
+
+}
+.otherNews:hover {
+    background-color: #777;
+}
+h4{
+  padding-top: 20px;
+  background-color: white;
+  width: 50px;
+  /*white-space: pre-line;*/
+}
+img{
+  border-radius: 10px;
+}
