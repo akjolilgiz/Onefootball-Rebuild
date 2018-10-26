@@ -1,5 +1,5 @@
 .header{
-  margin-top: 40px;
+  margin-top: 10px;
   margin-bottom: 0px;
 }
 .logos{
@@ -9,6 +9,7 @@
     margin-left: 20px;
     background-color: white;
     border-radius: 5px;
+    text-shadow: 50px 50px;
 
 }
 img{
