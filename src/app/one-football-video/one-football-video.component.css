@@ -2,19 +2,25 @@
   margin-top: 10%;
 }
 .otherNews {
-    width: 23%;
-    height: 300px;
+    width: 25%;
+    height: 100%;
     margin-right: 22px;
+    margin-top: 0px;
     padding: 0px;
     display: inline-block;
 }
-
+.playButton{
+  position: absolute;
+  transform: translate(-50%,0)
+}
 .information{
-  width:200px;
+  width:100%;
+  height: 100%;
   margin: 5px;
   text-align: center;
   color:black;
   white-space: normal;
+  overflow: hidden;
 }
 
 .scrollmenu {
@@ -22,6 +28,8 @@
     white-space: nowrap;
     height: auto;
     overflow-x: scroll;
+    overflow-y: hidden;
+
 
 }
 .otherNews:hover {
