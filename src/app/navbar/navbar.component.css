@@ -2,11 +2,10 @@
   font-family: verdana;
   font-style: italic;
   font-weight: bold;
-  height: 50px;
+  height: 5%;
   margin-top: 10px;
   margin-left: 50px;
-  margin-bottom: 50px; 
-
+  margin-bottom: .5%;
 }
 
 .searchForm {
@@ -24,7 +23,8 @@ nav {
 .logo{
   float: left;
 }
-/*button{
-  height: 35px;
-  border: solid;
-}*/
+
+.dropdown-menu{
+  float: left;
+  color: black;
+}

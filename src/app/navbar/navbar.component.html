@@ -1,12 +1,17 @@
 <nav class="navbar navbar-expand-md">
   <div class="col-md-6 logo">
+    <div class="logo">
     <img src=".././assets/img/newLogo.png" style='height:40px;'>
-    <select name="languages">
-    <option style="background-image:url(/Users/Guest/Desktop/Website-Angular/src/assets/img/logo.png);" value="English">English</option>
-    <option value="Argentina">Argentina</option>
-    <option value="Brasil">Brasil</option>
-    <option value="Chile">Chile</option>
-    </select>
+  </div>
+    <div class="dropdown">
+        <button class="btn btn-gray dropdown-toggle" type="text" data-toggle="dropdown">English
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li>Russian</li>
+          <li>Brasil</li>
+          <li>Chile</li>
+        </ul>
+      </div>
   </div>
 
   <div class="col-md-6 searchForm">

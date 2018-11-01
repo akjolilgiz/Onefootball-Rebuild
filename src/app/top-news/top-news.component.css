@@ -7,8 +7,7 @@
   margin-bottom: 5px;
 }
 .logO{
-  padding-top: 50px;
-}
+margin-top: 50%}
 .log1{
   padding-top: 20px;
 }
@@ -54,11 +53,20 @@ img{
   -moz-transform: scale(1.05);
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
+  overflow: hidden;
+}
+.picture{
+  overflow: hidden;
 }
 .news{
-width: 500px;
+width: 44%;
 margin: 0px;
 background-color: black;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+
+
 }
 h3{
   margin-top: 300px;
@@ -71,8 +79,15 @@ h6{
 .otherNews {
     float: left;
     width: 23%;
-    margin-top: 20px;
-    margin-right: 22px;
+    margin-top: 5%;
+    margin-right: 2%;
     padding: 0px;
     heigh: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.topNewsLogo{
+  overflow: hidden;
+
 }
