@@ -6,13 +6,13 @@ import { NewsComponent } from './news/news.component';
 
 const appRoutes: Routes = [
   {
-      path: 'details',
-      component: DetailsComponent
-  },
-  {
       path: 'news',
       component: NewsComponent
   },
+  {
+  path: 'news/:id',
+  component: DetailsComponent
+}
  ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

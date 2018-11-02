@@ -1,7 +1,7 @@
-<h2>Marketplace</h2>
+<h2>News</h2>
 
-<div *ngFor="let news of news" class="panel panel-default">
+<div *ngFor="let new of news" (click)="goToDetailPage(new)" class="panel panel-default" >
   <div class="panel-body">
-    <h3><em>{{news.title}}</em> by {{news.description}}</h3>
+    <h3><em>{{new.title}}</em> by {{new.description}} {{new.id}}</h3>
   </div>
 </div>

@@ -21,4 +21,5 @@ export class NewsComponent{
   goToDetailPage(clickedNews: News) {
     this.router.navigate(['news', clickedNews.id]);
   };
+
 }
