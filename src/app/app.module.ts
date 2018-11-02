@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { routing } from './app.routing';
+import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -14,6 +15,8 @@ import { AdminComponent } from './admin/admin.component';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { NewsFormComponent } from './news-form/news-form.component';
+import { YourNewsComponent } from './your-news/your-news.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -33,11 +36,14 @@ export const firebaseConfig = {
     NewsComponent,
     HomepageComponent,
     AdminComponent,
+    NewsFormComponent,
+    YourNewsComponent,
 
   ],
   imports: [
     BrowserModule,
-    routing,    AngularFireModule.initializeApp(firebaseConfig),
+    routing,
+    HttpModule, AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule
   ],
   providers: [],

@@ -5,7 +5,6 @@ import { Location } from '@angular/common';
 import { NewsService } from '../news.service';
 import { FirebaseObjectObservable } from 'angularfire2/database';
 
-
 @Component({
   selector: 'app-details',
   templateUrl: './details.component.html',

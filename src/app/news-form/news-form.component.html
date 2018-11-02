@@ -1,0 +1,9 @@
+<h1>Your News</h1>
+<form>
+  <div class="form-group">
+    <label for="source">Source</label>
+    <input type=text #source>
+  </div>
+  <button (click)="getNews(source.value)">Get News</button>
+</form>
+  <app-your-news [yourNews]="articles"></app-your-news>

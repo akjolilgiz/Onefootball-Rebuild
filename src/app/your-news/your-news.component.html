@@ -1,0 +1,5 @@
+<h1>Your news:</h1>
+<h2> Source: {{yourNews.articles[0].title}}</h2>
+<div *ngFor="let article of yourNews.articles;" class="article">
+  <img src = {{article.urlToImage}}/>
+</div>
