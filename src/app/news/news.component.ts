@@ -3,6 +3,7 @@ import { News } from '../news.model';
 import { NewsService } from '../news.service';
 import { Router } from '@angular/router';
 import { FirebaseListObservable } from 'angularfire2/database';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-news',
@@ -20,7 +21,7 @@ export class NewsComponent implements OnInit{
   }
 
   goToDetailPage(clickedNews: News) {
-    // this.router.navigate(['news', clickedNews.id]);
+    this.router.navigate(['news', clickedNews.$key]);
   };
 
 }

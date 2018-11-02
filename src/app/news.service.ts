@@ -14,11 +14,10 @@ export class NewsService {
   getNews() {
     return this.news;
    }
-   getNewsById(newsId: number){
-    // for (var i = 0; i <= NEWS.length - 1; i++) {
-    //   if (NEWS[i].id === newsId) {
-    //     return NEWS[i];
-    //   }
-    // }
+   addNews(newNews: News) {
+     this.news.push(newNews)
+   }
+   getNewsById(newsId: string){
+     return this.database.object('news/' + newsId)
   }
 }

@@ -11,11 +11,12 @@ import { Router } from '@angular/router';
 })
 export class AdminComponent implements OnInit {
 
-  constructor(private albumService: NewsService) { }
+  constructor(private newsService: NewsService) { }
 
   ngOnInit() {
   }
   submitForm(title: string, description: string, url: string, content: string) {
     var newNews: News = new News(title, description, url, content);
+    this.newsService.addNews(newNews);
   }
 }
