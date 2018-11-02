@@ -12,11 +12,13 @@ import { NewsService } from '../news.service';
 })
 export class DetailsComponent implements OnInit{
 newsId: number;
+newsToDisplay: News;
   constructor(private route: ActivatedRoute, private location: Location, private albumService: NewsService) {}
 
 ngOnInit() {
     this.route.params.forEach((urlParameters) => {
     this.newsId = parseInt(urlParameters['id']);
    });
+   this.newsToDisplay = this.albumService.getNewsById(this.newsId);
   }
 }

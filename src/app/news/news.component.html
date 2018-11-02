@@ -1,7 +1,7 @@
 <h2>News</h2>
 
-<div *ngFor="let new of news" (click)="goToDetailPage(new)" class="panel panel-default" >
+<div *ngFor="let new of news | async" (click)="goToDetailPage(new)" class="panel panel-default" >
   <div class="panel-body">
-    <h3><em>{{new.title}}</em> by {{new.description}} {{new.id}}</h3>
+    <h3><em>{{new.title}}</em> by {{new.description}} {{new.content}}</h3>
   </div>
 </div>

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { News } from '../news.model';
 import { NewsService } from '../news.service';
 import { Router } from '@angular/router';
+import { FirebaseListObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-news',
@@ -10,8 +11,8 @@ import { Router } from '@angular/router';
   providers: [NewsService]
 
 })
-export class NewsComponent{
-  news: News[] = [];
+export class NewsComponent implements OnInit{
+  news: FirebaseListObservable<any[]>;
   constructor(private router: Router, private newsService: NewsService ) {}
 
   ngOnInit(){
@@ -19,7 +20,7 @@ export class NewsComponent{
   }
 
   goToDetailPage(clickedNews: News) {
-    this.router.navigate(['news', clickedNews.id]);
+    // this.router.navigate(['news', clickedNews.id]);
   };
 
 }
