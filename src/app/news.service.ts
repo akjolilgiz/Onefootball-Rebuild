@@ -14,7 +14,7 @@ export class NewsService {
   constructor(private database: AngularFireDatabase, private http: Http) {
     this.news = database.list('news');
 }
-  getBySource(name: string){
+  getBySource(source: string){
     return this.http.get('https://newsapi.org/v2/top-headlines?sources=${source}&apiKey=a8a17bb4b2734a8ca5f4863944460fd1')
   }
   getNews() {

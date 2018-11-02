@@ -14,6 +14,8 @@ _This is a website rebuilt of OneFootball using Angular. It is only front end._
 # WebsiteAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+## Specs
+* Website allows Admin to create news and display on the main page. 
 
 ## Development server
 
