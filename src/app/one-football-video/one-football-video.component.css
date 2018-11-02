@@ -47,3 +47,12 @@ img{
 .videos{
   margin-top: 5%;
 }
+div{
+  position: relative;
+}
+div span{
+  position: absolute;
+    bottom: 70%;
+    left: 50%;
+    right: 50%;
+}
