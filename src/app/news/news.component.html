@@ -1,4 +1,5 @@
-<h2>News</h2>
+<div>
+  <h2>News</h2>
 
 <div *ngFor="let new of news | async" (click)="goToDetailPage(new)" class="panel panel-default">
   <div class="column otherNews">
@@ -8,4 +9,5 @@
     <h6>OneFootball</h6>
   </h4>
   </div>
+</div>
 </div>

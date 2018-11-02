@@ -7,10 +7,6 @@ import { AdminComponent } from './admin/admin.component'
 
 const appRoutes: Routes = [
   {
-      path: 'news',
-      component: NewsComponent
-  },
-  {
      path: 'admin',
      component: AdminComponent
    },
