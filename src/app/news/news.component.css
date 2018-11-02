@@ -32,10 +32,17 @@
   transform: scale(1.05);
   overflow: hidden;
 }
-
 h6{
   color: white;
 }
 h2{
   margin-top: 5%;
+}
+div{
+  position: relative;
+}
+div span{
+  position: absolute;
+    bottom: 2.5%;
+    left: 1%;
 }

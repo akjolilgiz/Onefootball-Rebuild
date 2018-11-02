@@ -21,7 +21,7 @@ export class NewsComponent implements OnInit{
     this.news = this.newsService.getNews();
   }
 
-  goToDetailPage(clickedNews: News) {
+  goToDetailPage(clickedNews) {
     this.router.navigate(['news', clickedNews.$key]);
   };
 

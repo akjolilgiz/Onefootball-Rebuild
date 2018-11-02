@@ -2,3 +2,8 @@ body {
   background-color: #F5F4F4;
   height: auto;
 }
+.footer{
+  margin-bottom: 2%;
+  margin-left: 5%;
+    bottom: 0;
+}

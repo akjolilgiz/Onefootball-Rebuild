@@ -81,6 +81,7 @@ h6{
     width: 23%;
     margin-top: 5%;
     margin-right: 2%;
+    margin-bottom: 0;
     padding: 0px;
     heigh: 200px;
     white-space: nowrap;
@@ -89,5 +90,12 @@ h6{
 }
 .topNewsLogo{
   overflow: hidden;
-
+}
+div{
+  position: relative;
+}
+div span{
+  position: absolute;
+    bottom: 2.5%;
+    left: 1%;
 }

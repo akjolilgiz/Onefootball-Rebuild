@@ -4,9 +4,9 @@
 <div *ngFor="let new of news | async" (click)="goToDetailPage(new)" class="panel panel-default">
   <div class="column otherNews">
     <img src="{{new.url}}" style="width:100%">
-    <h4 class="information">{{new.title}}<br>
-    <img src=".././assets/img/Logo.jpg" style="height: 20px" style="width: 20px" align="left">
-    <h6>OneFootball</h6>
+    <h4 class="information"><br>{{new.title}}
+    <span><img src=".././assets/img/Logo.jpg" style="height: 20px" style="width: 20px" align="left">
+    <h6>OneFootball</h6></span>
   </h4>
   </div>
 </div>
