@@ -1,9 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { News } from '../news.model';
 import { NewsService } from '../news.service';
 import { Router } from '@angular/router';
-import { FirebaseListObservable } from 'angularfire2/database';
+import { FirebaseListObservable, AngularFireDatabase } from 'angularfire2/database';
 import { Location } from '@angular/common';
+
 
 @Component({
   selector: 'app-news',

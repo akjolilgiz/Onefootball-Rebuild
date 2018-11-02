@@ -1,4 +1,38 @@
 .panel-body{
   border: solid black;
-  margin: 5%; 
+  margin: 5%;
+}
+.otherNews {
+    float: left;
+    width: 23%;
+    margin-top: 5%;
+    margin-right: 2%;
+    padding: 0px;
+    heigh: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.information{
+  border: black solid;
+  height: 200px;
+  color: white;
+  background-color: black;
+
+}
+.picture:hover img {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.otherNews:hover img {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  overflow: hidden;
+}
+
+h6{
+  color: white;
 }

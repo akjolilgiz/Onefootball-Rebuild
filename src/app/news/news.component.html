@@ -1,7 +1,11 @@
 <h2>News</h2>
 
-<div *ngFor="let new of news | async" (click)="goToDetailPage(new)" class="panel panel-default" >
-  <div class="panel-body">
-    <h3><em>{{new.title}}</em> by {{new.description}} {{new.content}}, {{new.$key}}</h3>
+<div *ngFor="let new of news | async" (click)="goToDetailPage(new)" class="panel panel-default">
+  <div class="column otherNews">
+    <img src="{{new.url}}" style="width:100%">
+    <h4 class="information">{{new.title}}<br>
+    <img src=".././assets/img/Logo.jpg" style="height: 20px" style="width: 20px" align="left">
+    <h6>OneFootball</h6>
+  </h4>
   </div>
 </div>
