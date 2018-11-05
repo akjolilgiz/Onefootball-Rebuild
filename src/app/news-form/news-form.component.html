@@ -1,8 +1,6 @@
-<!-- <h1>Your News</h1>
-<form>
-  <div class="form-group">
-    <label for="source">Source</label>
-    <input type=text #source>
-  </div>
-  <button (click)="getNews(source.value)">Get News</button>
-</form> -->
+
+<button (click)="getNews()">Newest Articles</button>
+
+<div *ngIf="articles">
+  <app-photos-list [childArticles]="articles"></app-photos-list>
+</div>

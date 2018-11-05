@@ -1,0 +1,14 @@
+<div class="row">
+<div class="news">
+  <h2>Newest Articles</h2>
+<div *ngFor="let article of childArticles.articles" (click)="goToDetailPage(new)" class="panel panel-default" routerLink="details">
+  <div class="column otherNews">
+    <img src="{{article.urlToImage}}" style="width:100%">
+    <h4 class="information"><br>{{article.title}}
+    <span><img src=".././assets/img/Logo.jpg" style="height: 20px" style="width: 20px" align="left">
+    <h6>OneFootball</h6></span>
+    </h4>
+  </div>
+</div>
+</div>
+</div>

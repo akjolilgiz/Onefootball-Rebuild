@@ -8,10 +8,6 @@ import { NewsFormComponent } from './news-form/news-form.component'
 import { TopNewsComponent } from './top-news/top-news.component'
 import { OneFootballVideoComponent } from './one-football-video/one-football-video.component'
 const appRoutes: Routes = [
-  {
-     path: 'news-form',
-     component: NewsFormComponent
-   },
    {
      path: 'videos',
      component: OneFootballVideoComponent

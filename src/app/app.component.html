@@ -1,8 +1,9 @@
 <div class="row">
+  <div class="Navs">
   <app-navbar></app-navbar>
+  </div>
   <body>
   <div class="container mainPage">
-
   <div>
     <router-outlet></router-outlet>
   </div>
@@ -11,7 +12,6 @@
   </div>
 </div>
   </body>
-
 <br>
 </div>
 <div class="row">
@@ -31,7 +31,13 @@
         <p><h6>Terms and Conditions</h6><p>
         <p><h6>Licenses</h6><p>
       </div>
-      <a class="text-muted" routerLink="admin">Admin</a>
+      <h5><a class="text admin" routerLink="admin">Admin</a></h5>
+      <div class="col-md-3 Downloads">
+        <p><h6>Downloads</h6><p>
+        <p><img src=".././assets/img/googleIcon.png"><img src=".././assets/img/appleIcon.png"><p>
+        <p><h6>Social</h6><p>
+        <p><img src=".././assets/img/logos.jpg"></p>
+      </div>
     </div>
   </footer>
 </div>

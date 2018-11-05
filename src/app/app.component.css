@@ -1,8 +1,9 @@
 body {
-  background-color: white;
+  background-color: #f0f5f5;
   height: auto;
+  width: 100%;
   height: 90%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 .mainPage{
   margin: 5%;
@@ -19,4 +20,20 @@ background-color: #e3e4e5;
 }
 .AboutOneFootball{
   padding-left: 5%;
+}
+img{
+  height: 20%;
+  width: 40%;
+}
+.Downloads{
+  float: right;
+  margin-left: 20%;
+}
+.Navs{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  height: 7%;
+}
+.admin{
+  color: red;
 }
