@@ -1,12 +1,37 @@
+<div class="row">
   <app-navbar></app-navbar>
   <body>
   <div class="container mainPage">
-    <app-homepage></app-homepage>
 
+  <div>
+    <router-outlet></router-outlet>
   </div>
+  <div class="row">
+  <app-news></app-news>
+  </div>
+</div>
+  </body>
+
+<br>
+</div>
+<div class="row">
   <footer class="footer">
-    <div class="container">
+    <div class="row">
+      <div class="col-md-3 AboutOneFootball">
+        <p><h3>About OneFootball</h3><p>
+        <p><h6>OneFootball Network</h6><p>
+        <p><h6>Careers</h6><p>
+        <p><h6>Company</h6><p>
+        <p><h6>Contacts</h6><p>
+      </div>
+      <div class="col-md-3">
+        <p><h3>Legal</h3><p>
+        <p><h6>Imprint</h6><p>
+        <p><h6>Privacy Policy</h6><p>
+        <p><h6>Terms and Conditions</h6><p>
+        <p><h6>Licenses</h6><p>
+      </div>
       <a class="text-muted" routerLink="admin">Admin</a>
     </div>
   </footer>
-</body>
+</div>

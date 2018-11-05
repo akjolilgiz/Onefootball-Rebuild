@@ -16,7 +16,9 @@ import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { NewsFormComponent } from './news-form/news-form.component';
-import { YourNewsComponent } from './your-news/your-news.component';
+import { EditNewsComponent } from './edit-news/edit-news.component';
+// import { YourNewsComponent } from './your-news/your-news.component';
+// import { PhotosListComponent } from './photos-list/photos-list.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -37,7 +39,9 @@ export const firebaseConfig = {
     HomepageComponent,
     AdminComponent,
     NewsFormComponent,
-    YourNewsComponent,
+    EditNewsComponent,
+    // YourNewsComponent,
+    // PhotosListComponent,
 
   ],
   imports: [

@@ -3,19 +3,19 @@
   font-style: italic;
   font-weight: bold;
   height: 5%;
-  margin-top: 10px;
+  margin-top: 5%;
   margin-left: 50px;
   margin-bottom: .5%;
 }
 
 .searchForm {
-    float: left;
-    border-left: 1px solid #ced4db;
+    float: right;
     margin-left: 20px;
     width: 600px;
     margin-left: 100px;
 }
 nav {
+  margin-top: 5%;
     margin-left: auto;
     background-color: white;
     color: black;
@@ -27,4 +27,7 @@ nav {
 .dropdown-menu{
   float: left;
   color: black;
+}
+#searchForm{
+  /* background-image:url('.././assets/img/searchIcon.png') no-repeat; */
 }

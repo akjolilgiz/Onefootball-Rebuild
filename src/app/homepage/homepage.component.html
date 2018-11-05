@@ -1,9 +1,8 @@
-
-  <app-popular-pages></app-popular-pages>
-  <app-top-news></app-top-news>
-
-  <div class="row">
-  <app-one-football-video></app-one-football-video>
+  <div *ngIf="currentRoute != '/admin'">
+    <div class="content">
+      <app-popular-pages></app-popular-pages>
+      <app-one-football-video></app-one-football-video>
+      <app-top-news></app-top-news>
+    </div>
   </div>
-  <app-news></app-news>
   <router-outlet></router-outlet>
