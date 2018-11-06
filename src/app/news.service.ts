@@ -5,13 +5,16 @@ import { DetailsComponent } from './details/details.component';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 import { Observable } from 'rxjs/Observable';
 import { Http, Response } from '@angular/http';
+import * as firebase from 'firebase/app';
+import { AngularFireAuth } from 'angularfire2/auth';
 
 
 @Injectable()
 export class NewsService {
   news: FirebaseListObservable<any[]>;
+  user: Observable<firebase.User>;
 
-  constructor(private database: AngularFireDatabase, private http: Http) {
+  constructor(private database: AngularFireDatabase, private http: Http, public afAuth: AngularFireAuth) {
     this.news = database.list('news');
 }
   getBySource(){
@@ -26,4 +29,11 @@ export class NewsService {
    getNewsById(newsId: string){
      return this.database.object('news/' + newsId)
   }
+  login() {
+   this.afAuth.auth.signInWithPopup(new firebase.auth.GoogleAuthProvider());
+ }
+
+ logout() {
+   this.afAuth.auth.signOut();
+ }
 }

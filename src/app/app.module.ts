@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { routing } from './app.routing';
 import { HttpModule } from '@angular/http';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -19,6 +20,7 @@ import { NewsFormComponent } from './news-form/news-form.component';
 import { EditNewsComponent } from './edit-news/edit-news.component';
 // import { YourNewsComponent } from './your-news/your-news.component';
 import { PhotosListComponent } from './photos-list/photos-list.component';
+import { AngularFireAuthModule } from 'angularfire2/auth';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -49,7 +51,8 @@ export const firebaseConfig = {
     routing,
     HttpModule,
     AngularFireModule.initializeApp(firebaseConfig),
-    AngularFireDatabaseModule
+    AngularFireDatabaseModule,
+    AngularFireAuthModule
   ],
   providers: [],
   bootstrap: [AppComponent]
