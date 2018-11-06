@@ -2,7 +2,7 @@
 <div class="news">
   <h2>Newest Articles</h2>
 <div *ngFor="let article of childArticles.articles" (click)="goToDetailPage(new)" class="panel panel-default" routerLink="details">
-  <div class="column otherNews">
+  <div class="column otherNews align-baseline align-top">
     <img src="{{article.urlToImage}}" style="width:100%">
     <h4 class="information"><br>{{article.title}}
     <span><img src=".././assets/img/Logo.jpg" style="height: 20px" style="width: 20px" align="left">

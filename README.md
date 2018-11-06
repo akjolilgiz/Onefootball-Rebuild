@@ -13,10 +13,21 @@ _This is a website rebuilt of OneFootball using Angular. It is only front end._
 * https://github.com/akjolilgiz/Website-Angular
 # WebsiteAngular
 
+## Installation
+* Clone the repository from github.
+* Npm install
+* Create a project in firebase
+* Create api-keys.ts in app folder
+* Insert authentication information from firebase project to api-keys file
+
+
 ## Specs
 * Website displays news. At this moment only news feed at the bottom of the page is linked to detail page which user can use to display the content of the article.
-* Also, at this moment anybody can go to Admin page and create news or display newest news from BBC-SPORT api.
- 
+* Also, at this moment anybody can go to Admin page and create news.
+* News from BBC-sport API are viewable only in Admin page.
+* At this moment user can use current API in the link.
+
+
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
